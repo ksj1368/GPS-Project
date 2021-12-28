@@ -112,7 +112,3 @@ LLHtoENV(s9, ublox, 'OpenSpaceError_s9.txt')
 LLHtoENV(ns_iphone, ns_ublox, 'NsSpaceError_iphone.txt')
 LLHtoENV(ns_s10, ns_ublox, 'NsSpaceError_s10.txt')
 LLHtoENV(ns_s9, ns_ublox, 'NsSpaceError_s9.txt')
-
-"""
-diary off # 명령창에 나온 결과를 텍스트 파일로 저장 종료
-"""
