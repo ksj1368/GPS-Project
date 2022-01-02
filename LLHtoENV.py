@@ -87,7 +87,7 @@ def LLHtoENV(phone, ublox, title):
 
         ENV = np.dot(XYZtoENV,XYZ)
         
-        print(i+1, "E :", format(*ENV[0], ".7f"), "N : ",format(*ENV[1], ".7f"), "V : ", format(*ENV[2], ".7f"), sep = ' ') # 오차값(E, N, V)
+        print(i+1, format(*ENV[0], ".7f"), format(*ENV[1], ".7f"), format(*ENV[2], ".7f"), sep = ' ') # 오차값(E, N, V)
     sys.stdout.close() # 출력 결과를 저장한 텍스트 파일 닫기
       
 
