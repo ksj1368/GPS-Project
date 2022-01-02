@@ -7,10 +7,10 @@ def MeanNstd(device, title):
     N = [] 
     V = []
     for i in range(len(device)):
-        d = device[i].split(' ')
-        E.append(abs(float(d[3])))                     # E 방향 오차
-        N.append(abs(float(d[7])))                     # N 방향 오차
-        V.append(abs(float(d[11])))                    # V 방향 오차
+        d = device[i].split(' ')                                               
+        E.append(abs(float(d[1])))                     # E 방향 오차
+        N.append(abs(float(d[2])))                     # N 방향 오차
+        V.append(abs(float(d[3])))                    # V 방향 오차
 
     meanE = np.mean(E)
     meanN = np.mean(N)
